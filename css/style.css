@@ -1,0 +1,21 @@
+/* css */
+
+body {
+  background: #7a9b90;
+}
+
+h1 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.chakra {
+  height: 150px;
+  width: 180px;
+}
+.headings div {
+  background-color: #ffffff;
+  padding-top: 15px;
+}
