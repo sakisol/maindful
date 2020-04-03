@@ -1,25 +1,51 @@
 /* css */
 
 body {
-  background: #7a9b90;
+  /* background: #7a9b90; */
   font-family: "Maitree", serif;
 }
 .cee p {
   margin: 0;
 }
 
-.chakra {
-  height: 150px;
-  width: 180px;
-}
 .headings div {
-  background-color: #ffffff;
+  height: 20vh;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .socials img {
   width: 40px;
+}
+.splash {
+  height: 40vh;
+  background-image: url("../img/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+
+.whomidsect {
+  padding-top: 15px;
+  border-style: solid;
+  background-clip: border-box;
+  border-color: rgb(53, 70, 61);
+  border-width: 0;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.mymy p {
+  text-align: justify;
+}
+.teentalk {
+  text-align: center;
+  padding: 20px;
+}
+.teentalk img {
+  height: 80%;
 }
 
 /* ----------- Non-Retina Screens ----------- */
