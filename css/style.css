@@ -17,21 +17,35 @@ body {
 .socials img {
   width: 40px;
 }
-.splash {
+
+.splashzero {
+  border-style: solid;
+  background-clip: border-box;
+  border-color: rgb(53, 70, 61);
+  border-width: 0;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  margin-bottom: 10px;
+}
+.splash img {
   height: 40vh;
-  background-image: url("../img/mountains.jpg");
+  width: 100%;
+  margin-bottom: 10px;
+  /* background-image: url("../img/mountains.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100% 400px;
+  background-size: 100% 400px; */
 }
 
-.whomidsect {
+.midsect {
   padding-top: 15px;
   border-style: solid;
   background-clip: border-box;
   border-color: rgb(53, 70, 61);
   border-width: 0;
-  border-top-width: 1px;
+  border-top-width: 3px;
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
