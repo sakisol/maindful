@@ -1,23 +1,19 @@
 /* css */
 
 body {
-  /* background: #7a9b90; */
   font-family: "Maitree", serif;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-a:hover {
-  text-decoration: none;
-  color: rgb(76, 100, 82);
+
+.headings a:hover {
+  color: #639a67;
 }
 .cc p {
   margin: 0;
+  color: #b0a160;
 }
 
 .headings div {
-  height: 10vh;
+  height: 15vh;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -46,6 +42,11 @@ a:hover {
   height: 95%;
   width: 100%;
   margin-bottom: 10px;
+}
+
+.maiwell0 {
+  font-family: "Arima Madurai", cursive;
+  font-size: 2em;
 }
 .maiwell {
   position: absolute;
@@ -80,6 +81,15 @@ a:hover {
 
 .mymy p {
   text-align: justify;
+}
+
+.purple img {
+  height: auto;
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
 }
 .teentalk {
   text-align: center;
