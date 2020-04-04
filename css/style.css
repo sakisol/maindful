@@ -3,6 +3,14 @@
 body {
   font-family: "Maitree", serif;
 }
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #639a67;
+}
 
 .headings a:hover {
   color: #639a67;
@@ -79,8 +87,47 @@ body {
   border-left-width: 0px;
 }
 
+.midsectabout {
+  padding-top: 15px;
+  border-style: solid;
+  background-clip: border-box;
+  border-color: rgb(76, 100, 82);
+  border-width: 0;
+  border-top-width: 3px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  margin-bottom: 5px;
+}
+
+.blog0 {
+  padding: 15px 30px;
+  border-style: solid;
+  background-clip: border-box;
+  border-color: rgb(76, 100, 82);
+  border-width: 0;
+  border-top-width: 3px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.blog0 img {
+  width: 100%;
+}
+
+.blog {
+  padding: 40px;
+}
+
+.blog p {
+  text-align: justify;
+}
+
 .mymy p {
   text-align: justify;
+}
+.purple {
+  padding-bottom: 5px;
 }
 
 .purple img {
