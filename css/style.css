@@ -12,7 +12,7 @@ a:hover {
   text-decoration: none;
   color: rgb(76, 100, 82);
 }
-.cee p {
+.cc p {
   margin: 0;
 }
 
@@ -20,6 +20,7 @@ a:hover {
   height: 10vh;
   padding-top: 15px;
   padding-bottom: 5px;
+  font-size: ;
 }
 
 .socials img {
@@ -27,6 +28,9 @@ a:hover {
 }
 
 .splashzero {
+  position: relative;
+  text-align: center;
+  color: white;
   height: 30vh;
   border-style: solid;
   background-clip: border-box;
@@ -43,6 +47,24 @@ a:hover {
   height: 280px;
   width: 100%;
   margin-bottom: 10px;
+}
+.maiwell {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arima Madurai", cursive;
+  font-weight: 100;
+  font-size: 4em;
+}
+
+.cee {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arima Madurai", cursive;
+  font-weight: 700;
 }
 
 .midsect {

@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css?family=Maitree&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <title>maindful</title>
@@ -24,21 +28,7 @@
       <div class="container-fluid">
         <div v-if="view == 'home'">
           <div class="row headings">
-            <div class="col-2">
-              <a
-                class=""
-                @click="view ='home'"
-                tabindex="-1"
-                aria-disabled="true"
-                >mai wellness</a
-              >
-            </div>
-            <div class="col-2 cee">
-              <p>Coaching</p>
-              <p>+</p>
-              <p>Consulting</p>
-            </div>
-
+            <div class="col-4"></div>
             <div class="col-2">
               <a
                 class=""
@@ -49,19 +39,23 @@
               >
             </div>
             <div class="col-2">
-              <h5>Services</h5>
+              Services
             </div>
             <div class="col-2">
-              <h5>Blog</h5>
+              Blog
             </div>
             <div class="col-2">
-              <h5>Contact</h5>
+              Contact
             </div>
           </div>
           <!-- end of row headings -->
           <div class="splashzero">
             <div class="splash">
-              <img src="/img/mountains.jpg" />
+              <img src="./img/mountains.jpg" />
+              <div class="maiwell">MAI WELLNESS</div>
+              <div class="cee">
+                <p>Coaching + Consulting</p>
+              </div>
             </div>
           </div>
           <div class="row midsect"></div>
@@ -70,31 +64,37 @@
         <div v-if="view == 'about'">
           <div class="row headings">
             <div class="col-2">
-              <a href="/index.html"><h1>mai wellness</h1></a>
+              <a
+                class=""
+                @click="view ='home'"
+                tabindex="-1"
+                aria-disabled="true"
+                >mai wellness</a
+              >
             </div>
-            <div class="col-2 cee">
+            <div class="col-2 cc">
               <p>Coaching</p>
               <p>+</p>
               <p>Consulting</p>
             </div>
 
             <div class="col-2">
-              <h5><b>About</b></h5>
+              About
             </div>
             <div class="col-2">
-              <h5>What We Do</h5>
+              Services
             </div>
             <div class="col-2">
-              <h5>Blog</h5>
+              Blog
             </div>
             <div class="col-2">
-              <h5>Contact</h5>
+              Contact
             </div>
           </div>
           <!-- end of row headings -->
-          <div class="row splashzero">
+          <div class="splashzero">
             <div class="splash">
-              <img src="/img/mountains.jpg" />
+              <img src="./img/mountains.jpg" />
             </div>
           </div>
           <div class="row midsect">
@@ -112,7 +112,7 @@
             </div>
             <div class="col-6">
               <div class="teentalk">
-                <img src="img/teentalks.png" />
+                <img src="./img/teentalks.png" />
               </div>
             </div>
           </div>
