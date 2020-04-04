@@ -6,65 +6,153 @@
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+
     <link
       href="https://fonts.googleapis.com/css?family=Maitree&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <title>maindful</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row headings">
-        <div class="col-2">
-          <h1>mai wellness</h1>
-        </div>
-        <div class="col-2 cee">
-          <p>Coaching</p>
-          <p>+</p>
-          <p>Consulting</p>
-        </div>
+    <div id="app">
+      <div class="container-fluid">
+        <div v-if="view == 'home'">
+          <div class="row headings">
+            <div class="col-2">
+              <a
+                class=""
+                @click="view ='home'"
+                tabindex="-1"
+                aria-disabled="true"
+                >mai wellness</a
+              >
+            </div>
+            <div class="col-2 cee">
+              <p>Coaching</p>
+              <p>+</p>
+              <p>Consulting</p>
+            </div>
 
-        <div class="col-2">
-          <a href="/who.html"><h5>About</h5> </a>
+            <div class="col-2">
+              <a
+                class=""
+                @click="view ='about'"
+                tabindex="-1"
+                aria-disabled="true"
+                >About</a
+              >
+            </div>
+            <div class="col-2">
+              <h5>Services</h5>
+            </div>
+            <div class="col-2">
+              <h5>Blog</h5>
+            </div>
+            <div class="col-2">
+              <h5>Contact</h5>
+            </div>
+          </div>
+          <!-- end of row headings -->
+          <div class="splashzero">
+            <div class="splash">
+              <img src="/img/mountains.jpg" />
+            </div>
+          </div>
+          <div class="row midsect"></div>
         </div>
-        <div class="col-2">
-          <h5>Services</h5>
+        <!-- end of div view HOME-->
+        <div v-if="view == 'about'">
+          <div class="row headings">
+            <div class="col-2">
+              <a href="/index.html"><h1>mai wellness</h1></a>
+            </div>
+            <div class="col-2 cee">
+              <p>Coaching</p>
+              <p>+</p>
+              <p>Consulting</p>
+            </div>
+
+            <div class="col-2">
+              <h5><b>About</b></h5>
+            </div>
+            <div class="col-2">
+              <h5>What We Do</h5>
+            </div>
+            <div class="col-2">
+              <h5>Blog</h5>
+            </div>
+            <div class="col-2">
+              <h5>Contact</h5>
+            </div>
+          </div>
+          <!-- end of row headings -->
+          <div class="row splashzero">
+            <div class="splash">
+              <img src="/img/mountains.jpg" />
+            </div>
+          </div>
+          <div class="row midsect">
+            <div class="mymy col-6">
+              <p>
+                Maia is a licensed social worker and dedicated to supporting the
+                emotional health and wellness of teens. She works with teenagers
+                struggling with anxiety, depression, abuse, family conflict, and
+                trauma. Maia is particularly focused on teaching young people
+                how to improve their communication and coping skills. She is
+                dedicated to continuing the important conversations surrounding
+                mental health and well-being to reduce the stigma of mental
+                illness and increase access to treatment.
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="teentalk">
+                <img src="img/teentalks.png" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-          <h5>Blog</h5>
-        </div>
-        <div class="col-2">
-          <h5>Contact</h5>
-        </div>
+        <!-- end of div view ABOUT app -->
       </div>
-      <div class="row splashzero">
-        <div class="splash">
-          <img src="./img/mountains.jpg" />
-        </div>
-      </div>
-      <div class="row midsect"></div>
+      <!-- end of div container-fluid -->
     </div>
+    <!-- end of div id app -->
 
     <!-- scripts -->
+    <!-- jQuery -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
+    <!-- VUE.js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <!-- JS -->
+    <script src="js/main.js"></script>
   </body>
 </html>

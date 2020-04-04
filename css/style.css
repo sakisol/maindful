@@ -10,14 +10,14 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: rgb(88, 148, 116);
+  color: rgb(76, 100, 82);
 }
 .cee p {
   margin: 0;
 }
 
 .headings div {
-  height: 20vh;
+  height: 10vh;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -27,9 +27,10 @@ a:hover {
 }
 
 .splashzero {
+  height: 30vh;
   border-style: solid;
   background-clip: border-box;
-  border-color: rgb(53, 70, 61);
+  border-color: rgb(76, 100, 82);
   border-width: 0;
   border-top-width: 0px;
   border-right-width: 0px;
@@ -37,21 +38,18 @@ a:hover {
   border-left-width: 0px;
   margin-bottom: 10px;
 }
+
 .splash img {
-  height: 40vh;
+  height: 280px;
   width: 100%;
   margin-bottom: 10px;
-  /* background-image: url("../img/mountains.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100% 400px; */
 }
 
 .midsect {
   padding-top: 15px;
   border-style: solid;
   background-clip: border-box;
-  border-color: rgb(53, 70, 61);
+  border-color: rgb(76, 100, 82);
   border-width: 0;
   border-top-width: 3px;
   border-right-width: 0px;
