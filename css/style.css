@@ -34,7 +34,6 @@ a:hover {
   position: relative;
   text-align: center;
   color: white;
-  height: 30vh;
   border-style: solid;
   background-clip: border-box;
   border-color: rgb(76, 100, 82);
@@ -44,11 +43,11 @@ a:hover {
   border-bottom-width: 1px;
   border-left-width: 0px;
   margin-bottom: 10px;
-}
-
-.splash img {
-  height: 95%;
-  width: 100%;
+  min-height: 400px;
+  background-image: url("/img/mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   margin-bottom: 10px;
 }
 
@@ -150,14 +149,6 @@ a:hover {
   margin: auto;
   opacity: 0.7;
 }
-
-/* .teentalk {
-  text-align: center;
-  padding: 20px;
-}
-.teentalk img {
-  height: 80%;
-} */
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
