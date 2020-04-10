@@ -127,8 +127,12 @@ a:hover {
   text-align: justify;
 }
 
+#midsectabout .mymy,
 .purple {
-  padding-bottom: 5px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 25px;
 }
 
 .purple img {
@@ -150,10 +154,16 @@ a:hover {
   opacity: 0.7;
 }
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-}
+/* ----------- Media Queries ----------- */
 
-/* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media (max-width: 768px) {
+  #midsectabout .mymy,
+  .purple {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .mymy p {
+    padding-top: 10px;
+  }
 }
