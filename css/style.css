@@ -59,7 +59,7 @@ header nav li:hover {
   border-left-width: 0px;
   margin-bottom: 10px;
   min-height: 400px;
-  background-image: url("/img/mountains.jpg");
+  background-image: url("./img/mountains.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
