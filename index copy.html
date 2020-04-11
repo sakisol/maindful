@@ -27,66 +27,43 @@
     <div id="app">
       <div class="container-fluid">
         <div v-if="view == 'home'">
-          <header>
-            <div class="cont">
-              <div id="headings"></div>
-              <nav>
-                <ul>
-                  <li>
-                    <a
-                      class=""
-                      @click="view ='about'"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class=""
-                      @click="view ='blog'"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class=""
-                      @click="view ='blog'"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class=""
-                      @click="view ='blog'"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Contact</a
-                    >
-                  </li>
-                </ul>
-              </nav>
+          <div class="row headings">
+            <div class="col-4"></div>
+            <div class="col-2">
+              <a
+                class=""
+                @click="view ='about'"
+                tabindex="-1"
+                aria-disabled="true"
+                >About</a
+              >
             </div>
-          </header>
-          <!-- end of row headings -->
-          <div class="row">
-            <div id="splashzero">
-              <!-- <div class="splash"> -->
-              <!-- <img src="./img/mountains.jpg" /> -->
-              <!-- <div class="maiwell">MAI WELLNESS</div>
-              <div class="cee">
-                <p>Coaching + Consulting</p>
-              </div> -->
-              <!-- </div> -->
-              <h1>MAI WELLNESS</h1>
-              <p>Coaching + Consulting</p>
+            <div class="col-2">
+              Services
+            </div>
+            <div class="col-2">
+              <a
+                class=""
+                @click="view ='blog'"
+                tabindex="-1"
+                aria-disabled="true"
+                >Blog</a
+              >
+            </div>
+            <div class="col-2">
+              Contact
             </div>
           </div>
-
+          <!-- end of row headings -->
+          <div class="splashzero">
+            <!-- <div class="splash"> -->
+            <!-- <img src="./img/mountains.jpg" /> -->
+            <div class="maiwell">MAI WELLNESS</div>
+            <div class="cee">
+              <p>Coaching + Consulting</p>
+            </div>
+            <!-- </div> -->
+          </div>
           <div class="row midsect">
             <div class="col-12 quote">
               <p>
