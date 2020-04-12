@@ -37,10 +37,6 @@ header nav {
   margin-top: 10px;
 }
 
-.active {
-  font-weight: bolder;
-}
-
 .maiwell0 {
   font-family: "Arima Madurai", cursive;
   font-size: 1em;
@@ -49,7 +45,7 @@ header nav {
 /* showcase */
 #splashzero {
   /* image */
-  background-image: url("./img/mountains.jpg");
+  background-image: url("../img/mountains.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -121,6 +117,8 @@ aside#purple {
 .blog p {
   text-align: justify;
 }
+/* CONTACT PAGE  */
+/*  midsection */
 
 /* footer */
 footer {
