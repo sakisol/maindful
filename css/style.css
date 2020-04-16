@@ -45,7 +45,7 @@ header nav {
 /* showcase */
 #splashzero {
   /* image */
-  background-image: url("../img/mountains.jpg");
+  background-image: url("img/mountains.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -71,22 +71,21 @@ header nav {
 /* ABOUT PAGE  */
 /*  midsection */
 
-article#mymy {
+article #mymy {
   float: left;
-  width: 45%;
+  width: 52%;
   margin: auto;
   padding-top: 100px;
   text-align: justify;
   color: #434e52;
 }
 
-aside#purple {
+aside #purple {
   float: right;
   width: 45%;
 }
 #purple img {
   padding-top: 50px;
-  height: 400px;
   width: 100%;
 }
 
@@ -106,12 +105,39 @@ aside#purple {
 
 /* BLOG PAGE  */
 /*  midsection */
-#blog img {
-  width: 100%;
+
+article #bdatext {
+  padding-top: 60px;
+  float: right;
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  color: #434e52;
 }
 
-#blog {
-  padding: 40px;
+aside #bermuda img {
+  height: 300px;
+  width: 47%;
+  float: left;
+}
+article #chitext {
+  padding-top: 20px;
+  float: left;
+  width: 60%;
+  /* margin: auto; */
+  text-align: justify;
+  color: #434e52;
+}
+
+aside #chicago img {
+  float: right;
+  height: 300px;
+  width: 34%;
+}
+
+#blog img {
+  height: 400px;
+  width: 100%;
 }
 
 .blog p {
@@ -122,7 +148,11 @@ aside#purple {
 
 /* footer */
 footer {
-  height: 40vh;
+  height: 20vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 footer #foot {
