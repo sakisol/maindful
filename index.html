@@ -87,6 +87,21 @@
               </p>
             </div>
           </section>
+          <footer>
+            <div id="foot">
+              <img src="./img/heart-chakra-symbol.png" />
+
+              <p>(404) 555-1234</p>
+              <p>mai@maiwellnessco.com</p>
+              <p>&copy2020 MAI Wellness</p>
+              <p>
+                site by
+                <a href="https://www.solisolu.com" target="_blank" class="soli"
+                  >SoliSolu</a
+                >
+              </p>
+            </div>
+          </footer>
         </div>
         <!-- end of div view HOME-->
         <div v-if="view == 'about'">
@@ -168,9 +183,26 @@
                 <img src="./img/purplewoman.jpg" />
               </div>
             </aside>
+            <div class="space">
+              <p>Credentials</p>
+              <p>
+                Bachelor of Arts, Psychology, Clark Atlanta University, 1994
+              </p>
+              <p>Master of Social Work, University of Michigan, 1999</p>
+            </div>
+
+            <div class="assoc">
+              <p>Professional Affiliations</p>
+              <p>
+                Licensed Social Worker, State of Georgia
+              </p>
+              <p>National Association of Social Workers, Member</p>
+              <p>School Social Work Association of Georgia, Member</p>
+              <p>Coalition of Schools Educating Mindfully, Member</p>
+            </div>
           </section>
+
           <!-- end of div midsect -->
-          <div class="space"></div>
         </div>
         <!-- end of div view ABOUT app -->
         <div v-if="view == 'blog'">
@@ -230,7 +262,7 @@
             </div>
           </header>
           <!-- end of row headings -->
-          <section>
+          <section class="blog">
             <article>
               <div id="bdatext">
                 <p>
@@ -253,7 +285,7 @@
               </div>
             </aside>
           </section>
-          <section>
+          <section class="blog">
             <article>
               <div id="chitext">
                 <p>
@@ -278,6 +310,51 @@
               <div id="chicago">
                 <img src="./img/chicago.jpg" />
               </div>
+            </aside>
+          </section>
+          <section class="blog">
+            <article>
+              <div id="joy">
+                <p>
+                  My greatest joy has been working in my current capacity as a
+                  school social worker. School is a major source of stress for
+                  youth, and it is here that I have an opportunity to build
+                  meaningful relationships with students. I work to inspire and
+                  support students individually, in groups, workshops, and
+                  through mindfulness practices. I truly believe that a healthy
+                  mind can play a part not only in quality of life improvements
+                  but also in a person’s prognosis. In 2013, I started the first
+                  school-based mental health program in Fulton County Schools.
+                  The partnership between Tri-Cities High School and Odyssey
+                  Family Counseling allowed us to address student mental health
+                  needs in a comprehensive way to support positive behavioral
+                  changes. Eliminating student barriers to access mental health
+                  services was a critical need that I worked to address to
+                  improve outcomes for children in school.
+                </p>
+              </div>
+            </article>
+          </section>
+          <section class="blog">
+            <article>
+              <div id="balitext">
+                <p>
+                  In 2015, after a trip to Bali, I developed an interest in
+                  meditation and mindfulness. With its beautiful views, tranquil
+                  surroundings, and rich spiritual heritage, I fell in love with
+                  the island. The Balinese people have a gentle and kind way of
+                  being. I remember how peaceful I felt on the trip. When I
+                  returned home, there was a busyness of life that was
+                  distinctly different. It did not afford the opportunity to be
+                  still and quiet the mind. Over the years, I have learned that
+                  this busyness forces our brains into a different way of
+                  behaving. Practicing mindfulness has been transformative in my
+                  personal and professional life….
+                </p>
+              </div>
+            </article>
+            <aside>
+              <div id="bali"><img src="./img/bali.jpg" /></div>
             </aside>
           </section>
 
@@ -345,22 +422,6 @@
           <!-- end of section blog-->
         </div>
         <!-- end of div CONTACT view -->
-
-        <footer>
-          <div id="foot">
-            <img src="./img/heart-chakra-symbol.png" />
-
-            <p>(404) 555-1234</p>
-            <p>mai@maiwellnessco.com</p>
-            <p>&copy2020 MAI Wellness</p>
-            <p>
-              site by
-              <a href="https://www.solisolu.com" target="_blank" class="soli"
-                >SoliSolu</a
-              >
-            </p>
-          </div>
-        </footer>
       </div>
       <!-- end of div container-fluid -->
     </div>

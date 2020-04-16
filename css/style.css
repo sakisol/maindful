@@ -45,7 +45,7 @@ header nav {
 /* showcase */
 #splashzero {
   /* image */
-  background-image: url("img/mountains.jpg");
+  background-image: url("/mountains.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -95,12 +95,48 @@ aside #purple {
   background-clip: border-box;
   border-color: rgb(76, 100, 82);
   border-width: 0;
-  border-top-width: 3px;
+  border-top-width: 1px;
   border-right-width: 0px;
   /* border-bottom-width: 1px; */
   border-left-width: 0px;
-  margin-bottom: 5px;
-  height: 70vh;
+  /* margin-bottom: 5px; */
+  height: 90vh;
+}
+
+.space {
+  float: left;
+  margin-top: 250px;
+  border-radius: 5px;
+  background-color: #68567f;
+  height: 180px;
+  width: 20%;
+  margin: auto;
+  color: #ffff;
+  text-align: center;
+}
+
+.space p {
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.assoc {
+  float: right;
+  margin-top: 270px;
+  border-radius: 5px;
+  background-color: #c7c98d;
+  height: 240px;
+  width: 25%;
+  margin: auto;
+  color: #ffff;
+  text-align: center;
+}
+
+.assoc p {
+  padding-top: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* BLOG PAGE  */
@@ -121,10 +157,10 @@ aside #bermuda img {
   float: left;
 }
 article #chitext {
-  padding-top: 20px;
+  padding-top: 60px;
   float: left;
   width: 60%;
-  /* margin: auto; */
+  margin: auto;
   text-align: justify;
   color: #434e52;
 }
@@ -135,20 +171,39 @@ aside #chicago img {
   width: 34%;
 }
 
-#blog img {
-  height: 400px;
+article #joy {
+  padding-top: 20px;
   width: 100%;
-}
-
-.blog p {
   text-align: justify;
 }
+
+article #balitext {
+  padding-top: 60px;
+  float: right;
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  color: #434e52;
+}
+
+aside #bali img {
+  height: 300px;
+  width: 47%;
+  float: left;
+}
+
+.blog {
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+
 /* CONTACT PAGE  */
 /*  midsection */
 
 /* footer */
 footer {
-  height: 20vh;
+  height: 30vh;
   position: fixed;
   left: 0;
   bottom: 0;
