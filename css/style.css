@@ -137,6 +137,18 @@ aside #purple {
   padding-left: 15px;
 }
 
+/* SERVICES PAGE  */
+
+.btn,
+.btn-default a {
+  color: #fff;
+  background-color: rgb(76, 100, 82);
+}
+.btn,
+.btn-default a:hover {
+  text-decoration: none;
+}
+
 /* BLOG PAGE  */
 /*  midsection */
 

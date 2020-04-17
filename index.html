@@ -44,7 +44,7 @@
                   <li>
                     <a
                       class=""
-                      @click="view ='blog'"
+                      @click="view ='services'"
                       tabindex="-1"
                       aria-disabled="true"
                       >Services</a
@@ -141,7 +141,7 @@
                   <li>
                     <a
                       class=""
-                      @click="view ='blog'"
+                      @click="view ='services'"
                       tabindex="-1"
                       aria-disabled="true"
                       >Services</a
@@ -224,7 +224,144 @@
           </div>
         </div>
         <!-- end of div view ABOUT app -->
+        <div v-if="view == 'services'">
+          <header>
+            <div class="container">
+              <div id="headings"></div>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      class="maiwell0"
+                      @click="view ='home'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >MAI WELLNESS</a
+                    >
+                  </li>
 
+                  <li>
+                    <a
+                      class="active"
+                      @click="view ='about'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view =''"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='blog'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='contact'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <!-- end of row headings -->
+
+          <div class="row">
+            <div>
+              <h1>SERVICES</h1>
+              <h3>Groups</h3>
+              <h5>Parenting Support Group</h5>
+              <p>
+                Parenting a child who struggles with depression is hard. Taking
+                care of your needs is just as important as caring for your
+                child.
+              </p>
+
+              <h5>Managing Stress & Anxiety for Teens</h5>
+              <p>
+                This group is for teens who need strategies to help manage their
+                emotions.
+              </p>
+              <ul>
+                <li>Learn the mind-body connection to healing</li>
+                <li>
+                  Practice self-regulation to restore the nervous system and
+                  relax
+                </li>
+                <li>
+                  Build resiliency skills and broaden awareness to relieve
+                  anxiety
+                </li>
+              </ul>
+
+              <h3>Workshops</h3>
+              <p>
+                I offer customized workshops or talks on topics related to:
+                Stress and Anxiety in Teens, Mindfulness in Schools, Parenting
+                Teenagers, Catastrophic Thinking, Advocating for Vulnerable
+                Children in Schools, Mental Health & Wellness. Please tell me
+                what kind of workshop you need.
+              </p>
+              <button type="button" class="btn btn-default">
+                <a
+                  href="mailto:mai@maiwellnessco.com?Subject=Workshop%20request%20maisite"
+                  target="_top"
+                  >REQUEST A WORKSHOP</a
+                >
+              </button>
+
+              <h3>Consultations</h3>
+              <p>
+                Implementing school-wide mindfulness practices
+              </p>
+              <p>
+                What does well-being look like for students? What do your
+                faculty members need? Maia offers mindfulness trainings for
+                teachers, and consultations on successfully implementing social
+                emotional learning (SEL) practices into your daily schedule. A
+                child who is not emotionally stable, or who does not feel safe
+                cannot learn. Contact me for assistance in implementing Social
+                Emotional Learning (SEL) practices that work and to build
+                capacity in your school community.
+              </p>
+
+              <h3>Mindful Practices</h3>
+              <p>
+                Do you rush through your day on autopilot, not fully aware of
+                what you are doing? Forgetting things, rushing through lunch
+                while multi-tasking? Does your mind spiral down into negative
+                self-talk or prediction. If any of this sounds familiar,
+                mindfulness practice can help you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end of div view SERVICES app -->
         <div v-if="view == 'blog'">
           <header>
             <div class="container">
@@ -253,7 +390,7 @@
                   <li>
                     <a
                       class=""
-                      @click="view ='blog'"
+                      @click="view ='services'"
                       tabindex="-1"
                       aria-disabled="true"
                       >Services</a
@@ -418,19 +555,10 @@
                   <li>
                     <a
                       class=""
-                      @click="view ='blog'"
+                      @click="view ='services'"
                       tabindex="-1"
                       aria-disabled="true"
                       >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class=""
-                      @click="view ='teentalks'"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >TEENTALKS.ONLINE</a
                     >
                   </li>
                   <li>
@@ -440,6 +568,15 @@
                       tabindex="-1"
                       aria-disabled="true"
                       >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
                     >
                   </li>
                   <li>
@@ -492,7 +629,7 @@
                   <li>
                     <a
                       class=""
-                      @click="view ='blog'"
+                      @click="view ='services'"
                       tabindex="-1"
                       aria-disabled="true"
                       >Services</a
