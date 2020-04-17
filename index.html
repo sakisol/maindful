@@ -62,6 +62,15 @@
                   <li>
                     <a
                       class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
                       @click="view ='contact'"
                       tabindex="-1"
                       aria-disabled="true"
@@ -150,6 +159,15 @@
                   <li>
                     <a
                       class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
                       @click="view ='contact'"
                       tabindex="-1"
                       aria-disabled="true"
@@ -183,7 +201,10 @@
                 <img src="./img/purplewoman.jpg" />
               </div>
             </aside>
-            <div class="space">
+          </section>
+          <!-- end of div midsect -->
+          <div class="row">
+            <div class="space col-3">
               <p>Credentials</p>
               <p>
                 Bachelor of Arts, Psychology, Clark Atlanta University, 1994
@@ -191,7 +212,7 @@
               <p>Master of Social Work, University of Michigan, 1999</p>
             </div>
 
-            <div class="assoc">
+            <div class="assoc col-3">
               <p>Professional Affiliations</p>
               <p>
                 Licensed Social Worker, State of Georgia
@@ -200,11 +221,10 @@
               <p>School Social Work Association of Georgia, Member</p>
               <p>Coalition of Schools Educating Mindfully, Member</p>
             </div>
-          </section>
-
-          <!-- end of div midsect -->
+          </div>
         </div>
         <!-- end of div view ABOUT app -->
+
         <div v-if="view == 'blog'">
           <header>
             <div class="container">
@@ -246,6 +266,15 @@
                       tabindex="-1"
                       aria-disabled="true"
                       >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
                     >
                   </li>
                   <li>
@@ -361,6 +390,80 @@
           <!-- end of section blog-->
         </div>
         <!-- end of div BLOG view -->
+        <div v-if="view == 'teentalks'" class="teentalkspage">
+          <header>
+            <div class="container">
+              <div id="headings"></div>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      class="maiwell0"
+                      @click="view ='home'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >MAI WELLNESS</a
+                    >
+                  </li>
+
+                  <li>
+                    <a
+                      class="active"
+                      @click="view ='about'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='blog'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='blog'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='contact'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="teensplash">
+            <img src="/img/teentalks.png" />
+            <div>
+              <h1>CONFIDENTIAL CHATS FOR TEENS ONLY</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <!-- end of div TEENTALKS ONLINE view -->
         <div v-if="view =='contact'">
           <header>
             <div class="container">
@@ -402,6 +505,15 @@
                       tabindex="-1"
                       aria-disabled="true"
                       >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class=""
+                      @click="view ='teentalks'"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >TEENTALKS.ONLINE</a
                     >
                   </li>
                   <li>
@@ -456,7 +568,7 @@
             <div class="info col-4">
               <h5>Ways to get in touch</h5>
               <h6>ONLINE:</h6>
-              <p>Skype: mai@mai@wellnessco.com</p>
+              <p>Skype: mai@wellnessco.com</p>
               <p>Zoom: by appointment</p>
               <p>WhatsApp: on call for emergencies 7am - 11pm</p>
               <p>Choose your platform and I will meet you there!</p>

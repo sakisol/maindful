@@ -97,15 +97,13 @@ aside #purple {
   border-width: 0;
   border-top-width: 1px;
   border-right-width: 0px;
-  /* border-bottom-width: 1px; */
   border-left-width: 0px;
-  /* margin-bottom: 5px; */
-  height: 90vh;
+  height: 70vh;
 }
 
 .space {
-  float: left;
-  margin-top: 250px;
+  /* float: left; */
+  /* margin-top: 150px; */
   border-radius: 5px;
   background-color: #68567f;
   height: 180px;
@@ -122,8 +120,8 @@ aside #purple {
 }
 
 .assoc {
-  float: right;
-  margin-top: 270px;
+  /* float: right; */
+  /* margin-top: 270px; */
   border-radius: 5px;
   background-color: #c7c98d;
   height: 240px;
@@ -197,6 +195,16 @@ aside #bali img {
   overflow: hidden;
   width: 100%;
   margin: auto;
+}
+/* TEENTALKS PAGE  */
+.teentalkspage {
+}
+
+.teensplash {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
 }
 
 /* CONTACT PAGE  */
