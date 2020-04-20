@@ -527,7 +527,7 @@
           <!-- end of section blog-->
         </div>
         <!-- end of div BLOG view -->
-        <div v-if="view == 'teentalks'" class="teentalkspage">
+        <div v-if="view == 'teentalks'">
           <header>
             <div class="container">
               <div id="headings"></div>
@@ -592,11 +592,43 @@
               </nav>
             </div>
           </header>
-          <div class="teensplash">
-            <img src="img/teentalks.png" />
+          <div v-bind:style="{'background-color': teenPage}" class="teensplash">
+            <a href="https:www.teentalksonline.com" target="_blank">
+              <img src="img/teentalks.png" />
+            </a>
+
             <div>
-              <h1>CONFIDENTIAL CHATS FOR TEENS ONLY</h1>
-              <p></p>
+              <h1>What is Teen Talks Online?</h1>
+              <p>
+                <a href="https:www.teentalksonline.com" target="_blank">
+                  Teen Talks
+                </a>
+                is an online space dedicated to supporting the emotional health
+                and well-being of teens. Oftentimes teenagers struggle with
+                anxiety, depression, conflict in family and peer relationships,
+                among other things with no outlet to talk about their issues. I
+                created this space to hold candid conversations on topics
+                relevant to teens.
+              </p>
+            </div>
+            <div class="">
+              <button type="button" class="btn btn-default teenbtn">
+                Visit Site
+              </button>
+            </div>
+            <div class="row teenimgs">
+              <div class="col-3">
+                <img src="img/athlete.jpg" />
+              </div>
+              <div class="col-3">
+                <img src="img/gradgirl.jpg" />
+              </div>
+              <div class="col-3">
+                <img src="img/teens.jpg" />
+              </div>
+              <div class="col-3">
+                <img src="img/smilingboy.jpg" />
+              </div>
             </div>
           </div>
         </div>

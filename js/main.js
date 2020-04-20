@@ -3,6 +3,7 @@ var app = new Vue({
   data: {
     view: "home",
     pageIndex: 0,
+    teenPage: "black",
   },
   methods: {
     changeView(page) {

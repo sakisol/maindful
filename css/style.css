@@ -209,14 +209,50 @@ aside #bali img {
   margin: auto;
 }
 /* TEENTALKS PAGE  */
-.teentalkspage {
-}
 
 .teensplash {
   text-align: center;
-  background-color: black;
-  height: 100vh;
   color: white;
+}
+.teensplash p {
+  display: inline-block;
+  width: 50%;
+}
+
+.teensplash h1 {
+  padding-top: 20px;
+}
+.teensplash img a {
+  height: 70%;
+  display: block;
+  margin: auto;
+}
+.teensplash img:hover {
+  transform: scale(1.1);
+}
+
+.teensplash a {
+  color: red;
+}
+.teensplash a:hover {
+  text-decoration: none;
+}
+
+.teenimgs img {
+  max-height: 400px;
+  width: 100%;
+  padding: 2px;
+  border: solid;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.teenbtn,
+.btn,
+.btn-default {
+  margin: 30px;
+  color: red;
+  background-color: #ffff;
 }
 
 /* CONTACT PAGE  */
